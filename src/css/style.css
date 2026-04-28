@@ -1,3 +1,8 @@
+@font-face {
+src: url("american-typewriter.ttf");
+font-family: "american-typewriter";
+}
+
 html {
 	height: 100%;
 	width: 100%;
@@ -13,4 +18,17 @@ body {
 	top: 0;
 	bottom: 0;
 	width: 100%;
+}
+
+span {
+	color: red;
+}
+
+h1{
+	font-family: "american-typewriter";
+}
+
+.mapboxgl-popup-content {
+	font-family: "american-typewriter";
+	border-radius: 30px;
 }
